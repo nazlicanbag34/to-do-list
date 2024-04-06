@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form, span {
+    margin: auto;
+    width: 80%;
+    border: thin solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+input[type="button"], input[type="text"] {
+    margin: 0.25rem;
+    padding: 10px;
+}
+
+select {
+    max-width: 150px;
+    margin: 0.25rem;
+    padding: 10px;
+}
+
+h3, h4, h5, li {
+    text-align: center;
+}
+
+.baslik {
+    background: url(assets/holiday.png) no-repeat 20% center/10%, url(assets/girl.png) no-repeat 85% center/10%;
+    display: block;
+    width: 80%;
+    line-height: 60px;
+    border: thin solid black;
+    margin: auto;
+    padding: 25px 0;
+    color: red;
+    font-weight: bold;
+}
+
+form > label {
+    border-right: thin solid black;
+    border-bottom: thin solid black;
+}
+
+li img {
+    width: 20px;
+    height: 20px;
+    margin: 0 0.25rem;
+}
+
+.baslik {
+    background-size: contain, contain; /*  resimlerinin boyutunu ayarlar */
+    background-position: 20% center, 85% center; /* Resimlerin konumunu ayarlar */
+}
